@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+div {
+    padding: 15px;
+}
+
+img{
+    width: 20vw;
+}
+
+.first {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#x {
+    background-color: deepskyblue;
+    padding: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+nav ul li a {
+    padding: 0 10px 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    height: 81vh;
+}
+
+.left {
+    padding: 0;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.top {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.right {
+    padding: 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.second {
+    background-color: lightpink;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.third {
+    background-color: lightseagreen;
+    width: 50%;
+}
+
+.fourth {
+    background-color: lightcoral;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.fifth {
+    background-color: lightslategrey;
+    width: 50%;
+}
+
+.sixth {
+    background-color: mediumpurple;
+    height: 10vh;
+}
+
+.seventh {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#y {
+    background-color: seagreen;
+    padding: 10px;
+}

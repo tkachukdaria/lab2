@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+img{
+    width: 20vw;
+}
+
+.first {
+    background-color: lightblue;
+    padding: 10px;
+    position: relative;
+
+}
+nav{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+nav ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+nav ul li a {
+    padding: 0 10px 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#x {
+    background-color: deepskyblue;
+    padding: 5px;
+    float: right;
+}
+
+.main {
+    height: 85vh;
+}
+
+.left {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+}
+
+.right {
+    width: 49%;
+}
+
+.second {
+    background-color: lightpink;
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    padding: 10px;
+    height: 75vh;
+}
+
+.third {
+    background-color: lightseagreen;
+    width: 49%;
+    padding: 10px;
+    height: 75vh;
+}
+
+.fourth {
+    background-color: lightcoral;
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    padding: 10px;
+    height: 85vh;
+}
+
+.fifth {
+    background-color: lightslategrey;
+    width: 49%;
+    padding: 10px;
+    height: 85vh;
+}
+
+.sixth {
+    background-color: mediumpurple;
+    padding: 12px;
+    height: 10vh;
+
+}
+
+.seventh {
+    background-color: lightgreen;
+    padding: 6px;
+    position: relative;
+}
+
+#y {
+    background-color: seagreen;
+    padding: 10px;
+    float: left;
+}
+
+#slogan{
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-10%, -50%);
+}
